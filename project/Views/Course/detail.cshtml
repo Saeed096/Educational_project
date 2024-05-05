@@ -1,0 +1,12 @@
+﻿@model Course
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">course name : @Model.name</h5>
+        <p class="card-text">course degree : @Model.degree </p>
+        <p class="card-text">course min degree : @Model.minDegree </p>
+        <p class="card-text">course hours : @Model.hours </p>
+        <p class="card-text">department name : @Model.department.name </p>
+        <a href="/course/index" class="btn btn-primary">Go back</a>
+    </div>
+</div>

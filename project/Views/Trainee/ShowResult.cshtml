@@ -1,0 +1,31 @@
+﻿@model CourseName_TraineeName_Degree_Color_VM
+@{
+    ViewData["Title"] = "ShowResult";
+}
+
+@* <table>
+    <tr>
+        <th style="margin:5px">Student name</th>
+        <th style="margin:5px">Course name</th>
+        <th style="margin:5px">degree</th>
+    </tr>
+
+    <tr>
+        <td>@Model.traineeName</td>
+        <td>@Model.courseName</td>
+        <td style="color:@Model.color">@Model.degree</td>
+    </tr>
+</table> *@
+
+<div class="card" style="width: 18rem;">
+    <img src="~/img/@Model.image" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title"> @Model.traineeName</h5>
+        <p class="card-text" style="color:@Model.color">@Model.degree </p>
+        <p class="card-text">course name : @Model.courseName </p>
+
+        @* <a href="/Trainee/index" class="btn btn-primary">Go back</a> *@
+    </div>
+</div>
+
+<div></div>

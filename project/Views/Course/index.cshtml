@@ -1,0 +1,111 @@
+﻿@model List<Course>
+@{
+    ViewData["Title"] = "index";
+    int counter = 1;
+    int next_page_num = ViewBag.page_num + 1;
+    int back_page_num = ViewBag.page_num - 1;
+    int current_page_num = ViewBag.page_num;
+    string search_key = ViewBag.search_key;
+    int? deleted_id = ViewBag.deleted_id;
+    string userName = ViewBag.userName;
+}
+
+@* 
+@if (ViewBag.deleted_id != null)
+{
+    <div class="modal-body">
+        <h2 class="fs-5">@ViewBag.deleted_id</h2>
+        <p>This <button class="btn btn-secondary" data-bs-toggle="popover" title="Popover title" data-bs-content="Popover body content is set in this attribute.">button</button> triggers a popover on click.</p>
+        <hr>
+        <h2 class="fs-5">Tooltips in a modal</h2>
+        <p><a href="#" data-bs-toggle="tooltip" title="Tooltip">This link</a> and <a href="#" data-bs-toggle="tooltip" title="Tooltip">that link</a> have tooltips on hover.</p>
+    </div>
+} *@
+
+
+<!-- Button trigger modal -->
+@* <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+</button> *@
+
+<!-- Modal -->
+@* @if (ViewBag.deleted_id != null)
+{ *@
+    <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Confirmation msg</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="text">
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a id="delete_btn"  class="btn btn-primary">confirm delete</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<h1>Hello @userName</h1>
+<!--form for 1 input , courses + view bags?????-->
+<form asp-controller="course" asp-action="index"
+asp-route-page_num="@current_page_num">
+    <input type="text" placeholder="search" name="search_key" value="@search_key"/>
+    <input type="submit" value="search" class="btn btn-success"/>
+</form>
+
+<table class="table table-bordered table-hover">
+
+    <tr>
+        <th>No</th>
+        <th>Name</th>
+        <th colspan="3">Show details</th>
+
+    </tr>
+
+    @foreach (Course course in Model)
+    {
+        <tr style="justify-items:center">
+            <td>@counter</td>
+            <td> @course.name </td>
+            <td width="16"> <a href="/course/detail?id=@course.id" class="btn btn-light">Show details</a> </td>
+            <td>
+                <button type="button" class="btn btn-primary" onclick="send_deleted_item('@course.name' , @course.id)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                delete
+                </button>
+            </td>
+            <td width="16"> <a href="/course/update?id=@course.id" class="btn btn-light">Edit</a> </td>
+        </tr>
+        counter++; 
+    }
+
+</table>
+
+@if(back_page_num == 0)
+{
+    <a href="/course/index?page_num=@back_page_num"
+       class="btn btn-danger disabled">Back</a>
+}
+else
+{
+<a href="/course/index?page_num=@back_page_num"
+   class="btn btn-danger">Back</a>
+}
+
+@if (ViewBag.is_remaining_courses)
+{
+    <a href="/course/index?page_num=@next_page_num"
+    class="btn btn-danger">Next</a>
+}
+else
+{
+    <a href="/course/index?page_num=@next_page_num"
+       class="btn btn-danger disabled">Next</a>
+}
+
+
+<script src="~/js/course_index.js"></script>

@@ -1,0 +1,76 @@
+﻿@model Ins_with_dep_crs_lists_VM
+@{
+    ViewData["Title"] = "add";
+}
+
+<h1>Add Instructor</h1>
+
+<form method="post" action="/instructor/save_add/@Model.id" enctype="multipart/form-data"> 
+
+    <label>Name</label>
+    <input type="text" name="name" id="name" value="@Model?.name" class="form form-control" />
+
+    <label>Salary</label>
+    <input type="text" name="salary" id="salary" value="@Model?.salary" class="form form-control" />
+   
+    <label>Address</label>
+    <input type="text" name="address" id="address" value="@Model?.address" class="form form-control" />
+
+    <label>Image</label>
+    <input type="file" name="img" id="image" value="@Model?.image" class="form form-control" />
+
+
+    <select name="dept_id" id="dept_id" onchange="update_courses(@Model.crs_id)">
+        @for(int i = 0; i < Model.deps_names_ids.Count; i++)
+        {
+            if (Model.dept_id == Model.deps_names_ids[i].id)
+            {
+                <option selected value="@Model.deps_names_ids[i].id">
+                    @Model.deps_names_ids[i].name
+                </option>
+            }
+
+            else
+            {
+                <option value="@Model.deps_names_ids[i].id">
+                    @Model.deps_names_ids[i].name
+                </option>
+            }
+
+        }
+       
+
+    </select>
+
+
+
+    <select name="crs_id" id="crs_id">
+        @for (int i = 0; i < Model.crs_names_ids.Count; i++)
+        {
+            if (Model.crs_id == Model.crs_names_ids[i].id)
+            {
+                <option selected value="@Model.crs_names_ids[i].id">
+                    @Model.crs_names_ids[i].name
+                </option>
+            }
+
+            else
+            {
+                <option value="@Model.crs_names_ids[i].id">
+                    @Model.crs_names_ids[i].name
+                </option>
+            }
+
+        }
+
+    </select>
+
+    <input type="submit" value="Add" class="btn btn-success" />
+
+</form>
+
+@section Scripts
+{
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/js/Add_ins.js"></script>
+}  

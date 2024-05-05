@@ -1,0 +1,15 @@
+﻿@{
+    @model Course_with_dep_ins_list_VM
+    ViewData["Title"] = "Update";
+}
+
+<h1 style="color:blue; position:center">Update</h1>
+
+<form asp-controller="Course" asp-action="saveUpdate" asp-route-id="@Model.id" method="post">
+
+    <partial name="_AddUpdatePartial"></partial>
+
+    <button type="submit" class="btn btn-info">Update</button>
+</form>
+
+<partial name="_ValidationScriptsPartial"></partial>

@@ -1,0 +1,78 @@
+﻿@model Trainee_with_dep_crs_lists_VM
+
+@{
+    ViewData["Title"] = "update";
+}
+
+
+@{
+    SelectList dept_names_ids = new SelectList(Model.deps, "id", "name");
+    SelectList courses_names_ids = new SelectList(Model.courses, "id", "name");
+    List<int> All_crs_ids = new List<int>();
+
+    foreach (Name_Id_VM crs in Model.courses)
+    {
+        All_crs_ids.Add(crs.id);
+    }
+
+}
+
+<h1 style="color:blue; position:center">Edit page</h1>
+
+<form asp-controller="Trainee" asp-action="saveUpdate" asp-route-id="@Model.id" method="post">
+
+    <div>
+        <label asp-for="name"></label>     <!--label and input has same name but value of input only will be sent as label has no value-->
+        <input asp-for="name" class="form form-control" />
+    </div>
+
+    <div>
+        <label asp-for="image"></label>
+        <input asp-for="image" class="form form-control" />
+    </div>
+
+    <div>
+        <label asp-for="grade"></label>
+        <input asp-for="grade" class="form form-control" />
+    </div>
+
+    <div>
+        <label asp-for="address"></label>
+        <input asp-for="address" class="form form-control" />
+    </div>
+
+    <div>
+        <select asp-for="dept_id" asp-items="dept_names_ids" class="form form-control">
+            <option value="0">Choose department</option>
+        </select>
+    </div>
+
+    <br />
+
+
+    <div>Select trainee courses</div>
+
+    @for (int i = 0; i < Model.courses?.Count; i++)
+    {
+        <span style="margin:4px">
+
+            @if (Model.trainee_courses_ids.Contains(All_crs_ids[i])) 
+            {
+                <input type="checkbox" checked name="trainee_courses_ids"
+                       value="@All_crs_ids[i]" />
+            }
+            else
+            {
+                <input type="checkbox" name="trainee_courses_ids"
+                       value="@All_crs_ids[i]" />
+            }
+
+               <label for="@All_crs_ids[i]">
+                @Model.courses[i].name
+            </label>
+        </span>
+    }
+
+    <br />
+    <button type="submit" class="btn btn-info">Update</button>
+</form>

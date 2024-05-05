@@ -1,0 +1,15 @@
+﻿@{
+    @model Course_with_dep_ins_list_VM
+    ViewData["Title"] = "add";
+}
+
+<h1 style="color:blue; position:center">New Course</h1>
+
+<form asp-controller="Course" asp-action="saveAdd" method="post">
+
+   <partial name="_AddUpdatePartial"></partial>
+   
+    <button type="submit" class="btn btn-info">Add</button>
+</form>
+
+<partial name="_ValidationScriptsPartial"></partial>

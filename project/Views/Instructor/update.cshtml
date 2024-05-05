@@ -1,0 +1,61 @@
+﻿@model Ins_with_dep_crs_lists_VM
+@{
+    ViewData["Title"] = "update";
+    SelectList deps = new SelectList(Model.deps_names_ids , "id" , "name");
+    SelectList courses = new SelectList(Model.crs_names_ids, "id", "name");
+}
+
+<h1>update</h1>
+@* 
+<div class="card" style="width: 18rem;">
+    <img src="~/img/@Model.image" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title"> @Model.name</h5>
+        <p class="card-text">salary : @Model.salary $ </p>
+        <p class="card-text">address : @Model.address </p>
+        <p class="card-text">department name : @Model.department.name </p>
+        <p class="card-text">course name : @Model.course.name </p>
+
+        <a href="/Instructor/index" class="btn btn-primary">Go back</a>
+        <a href="/Instructor/save_update?id=@Model.id" class="btn btn-primary">Save changes</a>
+    </div>
+</div> *@
+
+<form asp-controller="Instructor" asp-action="save_update" asp-route-id="@Model.id">
+
+    <div>
+        <label asp-for="name"></label>
+        <input asp-for="name" />
+    </div>
+
+    <div>
+        <label asp-for="image"></label>
+        <input asp-for="image" />
+    </div>
+
+    <div>
+        <label asp-for="salary"></label>
+        <input asp-for="salary" />
+    </div>
+
+    <div>
+        <label asp-for="address"></label>
+        <input asp-for="address" />
+    </div>
+
+    <div>
+        <select asp-for="dept_id" asp-items="deps" class="form form-control">
+            <option value="0">Choose department</option>
+        </select>
+    </div>
+
+    <div>
+        <select asp-for="crs_id" asp-items="courses" class="form form-control">
+            <option value="0">Choose course</option>
+        </select>
+    </div>
+
+    <input type="submit" class="btn btn-primary" value="Save changes" />
+</form>
+
+<a href="/Instructor/index" class="btn btn-primary">Go back</a>

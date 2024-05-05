@@ -1,0 +1,21 @@
+﻿@model CourseName_TraineeName_Degree_Color_LIST_VM
+@{
+    ViewData["Title"] = "showCourseResult";
+}
+
+<h1>@Model.course_names[0]</h1>
+
+@for(int i = 0; i < Model.traineeNames.Count; i++)
+{
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title"> Name : @Model.traineeNames[i]</h5>
+        <p class="card-text" style="color:@Model.colors[i]">Degree : @Model.degrees[i] </p>
+        @* <a href="/Trainee/index" class="btn btn-primary">Go back</a> *@
+    </div>
+</div>
+}
+
+
+
+

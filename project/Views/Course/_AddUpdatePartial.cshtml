@@ -1,0 +1,65 @@
+﻿@model Course_with_dep_ins_list_VM
+@{
+    SelectList dept_names_ids = new SelectList(Model.departments_names_ids, "id", "name");
+    SelectList ins_names_ids = new SelectList(Model.instructors_names_ids, "id", "name");
+}
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<div>
+    <label asp-for="name"></label>     <!--label and input has same name but value of input only will be sent as label has no value-->
+    <input asp-for="name" class="form form-control" />  <!--tag helper get prop <<which can be written in html like required , remote "due to jquery"..>> of the field with his name "name in this case" so tag understand how to validate even client side like required or server side which can make partial req like remote... no need for reload in this case unlike unique >> s.s and cannot be understandable via jquerry "cannot be put in html tag , cannot make partial req" must full req >> must reload -->
+    <span asp-validation-for="name" class="text-danger"></span>
+</div>
+
+<div>
+    <label asp-for="degree"></label>
+    <input asp-for="degree" class="form form-control" />
+    <span asp-validation-for="degree" class="text-danger"></span>
+</div>
+
+<div>
+    <label asp-for="minDegree"></label>
+    <input asp-for="minDegree" class="form form-control" />
+    <span asp-validation-for="minDegree" class="text-danger"></span>
+</div>
+
+<div>
+    <label asp-for="hours"></label>
+    <input asp-for="hours" class="form form-control" />
+    <span asp-validation-for="hours" class="text-danger"></span>
+</div>
+
+<div>
+    <select asp-for="dept_id" asp-items="dept_names_ids" class="form form-control">
+        <option value="0">Choose department</option>
+    </select>
+</div>
+
+<br />
+
+
+<div>Select course instructors</div>
+
+@for (int i = 0; i < Model.instructors_names_ids.Count; i++)
+{
+    <span style="margin:4px">
+
+        @if (Model.ins_ids != null && Model.ins_ids.Contains(Model.instructors_names_ids[i].id))
+        {
+            <input type="checkbox" checked name="ins_ids"
+                   value="@Model.instructors_names_ids[i].id" />
+        }
+        else
+        {
+            <input type="checkbox" name="ins_ids"
+                   value="@Model.instructors_names_ids[i].id" />
+        }
+
+        <label for="@Model.instructors_names_ids[i].id">
+            @Model.instructors_names_ids[i].name
+        </label>
+    </span>
+}
+
+<br />

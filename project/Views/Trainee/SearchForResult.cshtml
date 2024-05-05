@@ -1,0 +1,27 @@
+﻿
+@model Stu_names_list_Crs_names_list_VM
+@{
+    ViewData["Title"] = "SearchForResult";
+}
+
+@* @Html.TextBoxFor(Stu_id_Crs_idVM => Stu_id_Crs_idVM.s) *@
+<select id="stu_names">
+        <option disabled selected>Select student name</option>
+    @for(int i = 0 ; i < Model.stu_list.Count; i++)
+    {
+        <option>@Model.stu_list[i].name</option> 
+    }
+</select>
+
+<select>
+    <option disabled selected>Select course name</option>
+    @for (int i = 0; i < Model.crs_list.Count; i++)
+    {
+        <option>@Model.crs_list[i].name</option>
+    }
+</select>
+
+
+@* <a href="/Trainee/ShowResult?stu_id=@Model.stu_list.Where(s=>s.)" class="btn btn-primary">Show Result</a> *@
+
+

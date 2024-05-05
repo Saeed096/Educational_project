@@ -1,0 +1,56 @@
+﻿@model project.Models.ViewModel.loginUserViewModel
+
+@{
+    ViewData["Title"] = "login";
+}
+
+<h1 class="text-center text-info m-4" id="loginDiv">Welcome back</h1>
+
+<hr />
+<div class="container row">
+    <div class="col-md-4">
+        <form asp-action="login">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group m-2">
+                <label asp-for="userName" class="control-label"></label>
+                <input asp-for="userName" class="form-control" />
+                <span asp-validation-for="userName" class="text-danger"></span>
+            </div> 
+            <div class="form-group m-2">
+                <label asp-for="password" class="control-label"></label>
+                <input asp-for="password" class="form-control" />
+                <span asp-validation-for="password" class="text-danger"></span>
+            </div>
+            <div class="form-group m-2 form-check d-inline">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="rememberMe" /> @Html.DisplayNameFor(model => model.rememberMe)
+                </label>
+            </div>
+
+            <div class="d-inline">
+                <a asp-action="Index" class="text-danger m-2">Forgot password</a>
+            </div>
+            <div class="form-group m-2">
+                <input type="submit" value="Login" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+<script>
+    window.onload = function () {
+        scrollToDiv("loginDiv");
+    }
+
+    function scrollToDiv(divId) {
+        var loginDiv = document.getElementById(divId);
+        if (loginDiv) {
+            loginDiv.scrollIntoView({ behavior: "smooth" });
+        }
+    }
+</script>

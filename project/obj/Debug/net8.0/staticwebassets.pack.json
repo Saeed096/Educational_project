@@ -1,0 +1,617 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\project.bundle.scp.css",
+      "PackagePath": "staticwebassets\\project.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\assets\\img\\avataaars.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\avataaars.svg"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\assets\\img\\portfolio\\cabin.png",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\cabin.png"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\assets\\img\\portfolio\\cake.png",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\cake.png"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\assets\\img\\portfolio\\circus.png",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\circus.png"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\assets\\img\\portfolio\\game.png",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\game.png"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\assets\\img\\portfolio\\safe.png",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\safe.png"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\assets\\img\\portfolio\\submarine.png",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\submarine.png"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\css\\flex-slider.css",
+      "PackagePath": "staticwebassets\\css\\flex-slider.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\css\\lightbox.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\css\\owl.css",
+      "PackagePath": "staticwebassets\\css\\owl.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\css\\templatemo-edu-meeting.css",
+      "PackagePath": "staticwebassets\\css\\templatemo-edu-meeting.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\fonts\\flexslider-icon.eot",
+      "PackagePath": "staticwebassets\\fonts\\flexslider-icon.eot"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\fonts\\flexslider-icon.svg",
+      "PackagePath": "staticwebassets\\fonts\\flexslider-icon.svg"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\fonts\\flexslider-icon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\flexslider-icon.ttf"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\fonts\\flexslider-icon.woff",
+      "PackagePath": "staticwebassets\\fonts\\flexslider-icon.woff"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\fonts\\slick.eot"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\fonts\\slick.svg"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\fonts\\slick.woff"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\07fff3ff-7bf5-4358-9f00-674b557e9b1d_Screenshot 2024-01-21 211441.png",
+      "PackagePath": "staticwebassets\\img\\07fff3ff-7bf5-4358-9f00-674b557e9b1d_Screenshot 2024-01-21 211441.png"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\5daf9838-5646-4353-bd2d-e758a4976b0e_Screenshot 2024-01-21 211441.png",
+      "PackagePath": "staticwebassets\\img\\5daf9838-5646-4353-bd2d-e758a4976b0e_Screenshot 2024-01-21 211441.png"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\Coding workshop-bro.svg",
+      "PackagePath": "staticwebassets\\img\\Coding workshop-bro.svg"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\Graduation-pana.svg",
+      "PackagePath": "staticwebassets\\img\\Graduation-pana.svg"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\apply-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\apply-bg.jpg"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\b8c02ec8-9d51-4953-afc9-5cf02436bc66_Screenshot 2024-01-21 211441.png",
+      "PackagePath": "staticwebassets\\img\\b8c02ec8-9d51-4953-afc9-5cf02436bc66_Screenshot 2024-01-21 211441.png"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\close.png",
+      "PackagePath": "staticwebassets\\img\\close.png"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\course-01.jpg",
+      "PackagePath": "staticwebassets\\img\\course-01.jpg"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\course-02.jpg",
+      "PackagePath": "staticwebassets\\img\\course-02.jpg"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\course-03.jpg",
+      "PackagePath": "staticwebassets\\img\\course-03.jpg"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\course-04.jpg",
+      "PackagePath": "staticwebassets\\img\\course-04.jpg"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\course-video.mp4",
+      "PackagePath": "staticwebassets\\img\\course-video.mp4"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\facts-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\facts-bg.jpg"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\heading-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\heading-bg.jpg"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\ins1.png",
+      "PackagePath": "staticwebassets\\img\\ins1.png"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\ins2.webp",
+      "PackagePath": "staticwebassets\\img\\ins2.webp"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\ins3.webp",
+      "PackagePath": "staticwebassets\\img\\ins3.webp"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\ins_female.avif",
+      "PackagePath": "staticwebassets\\img\\ins_female.avif"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\ins_female.jpg",
+      "PackagePath": "staticwebassets\\img\\ins_female.jpg"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\loading.gif",
+      "PackagePath": "staticwebassets\\img\\loading.gif"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\meeting-01.jpg",
+      "PackagePath": "staticwebassets\\img\\meeting-01.jpg"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\meeting-02.jpg",
+      "PackagePath": "staticwebassets\\img\\meeting-02.jpg"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\meeting-03.jpg",
+      "PackagePath": "staticwebassets\\img\\meeting-03.jpg"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\meeting-04.jpg",
+      "PackagePath": "staticwebassets\\img\\meeting-04.jpg"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\meetings-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\meetings-bg.jpg"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\meetings-page-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\meetings-page-bg.jpg"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\next.png",
+      "PackagePath": "staticwebassets\\img\\next.png"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\play-icon.png",
+      "PackagePath": "staticwebassets\\img\\play-icon.png"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\prev.png",
+      "PackagePath": "staticwebassets\\img\\prev.png"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\service-icon-01.png",
+      "PackagePath": "staticwebassets\\img\\service-icon-01.png"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\service-icon-02.png",
+      "PackagePath": "staticwebassets\\img\\service-icon-02.png"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\service-icon-03.png",
+      "PackagePath": "staticwebassets\\img\\service-icon-03.png"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\service-item-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\service-item-bg.jpg"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\single-meeting.jpg",
+      "PackagePath": "staticwebassets\\img\\single-meeting.jpg"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\stu1.jpg",
+      "PackagePath": "staticwebassets\\img\\stu1.jpg"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\stu2.webp",
+      "PackagePath": "staticwebassets\\img\\stu2.webp"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\stu3.webp",
+      "PackagePath": "staticwebassets\\img\\stu3.webp"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\img\\video-item-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\video-item-bg.jpg"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\js\\Add_ins.js",
+      "PackagePath": "staticwebassets\\js\\Add_ins.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\js\\addAdmin.js",
+      "PackagePath": "staticwebassets\\js\\addAdmin.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\js\\course_index.js",
+      "PackagePath": "staticwebassets\\js\\course_index.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\js\\isotope.js",
+      "PackagePath": "staticwebassets\\js\\isotope.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\js\\isotope.min.js",
+      "PackagePath": "staticwebassets\\js\\isotope.min.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\js\\lightbox.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\js\\owl-carousel.js",
+      "PackagePath": "staticwebassets\\js\\owl-carousel.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\js\\slick-slider.js",
+      "PackagePath": "staticwebassets\\js\\slick-slider.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\js\\tabs.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\js\\video.js",
+      "PackagePath": "staticwebassets\\js\\video.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\vendor\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\vendor\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\vendor\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\vendor\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\vendor\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "E:\\iti\\Mvc\\day2\\tasks\\project\\wwwroot\\vendor\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.project.props",
+      "PackagePath": "build\\project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.project.props",
+      "PackagePath": "buildMultiTargeting\\project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.project.props",
+      "PackagePath": "buildTransitive\\project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
